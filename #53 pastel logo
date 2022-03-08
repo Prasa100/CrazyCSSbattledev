@@ -1,0 +1,23 @@
+<div id="circle"></div>
+<div id="rectangle"></div>
+<style>
+  body{
+    background:#19191A; 
+  }
+  div {
+    width: 150px;
+    height: 150px;
+    background: #dd6b4d;
+  }
+  #circle{
+    clip-path: circle(50%);
+    transform: translate(120px, 42px);
+    background-color: #4F77FF;
+  }
+  #rectangle{
+    width: 70px;
+    height: 130px;
+    transform: translate(120px, -34px);
+    background-color: rgba(255,255,153, 0.7);
+  }
+</style>
